@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exchange Rates</h1>
+
+    
+        <button id="currentRatesBtn" class="btn">Get Current Rates</button>
+        <div class="results" id="currentRates"></div>
+
+        <h2>Compare Currency Rates</h2>
+        <input type="text" id="currencyInput" placeholder="Enter currency codes (e.g., USD, GBP, JPY)" class="currency-input" />
+        <button id="compareRatesBtn" class="btn">Compare Rates</button>
+        <div class="results" id="comparisonRates"></div>
+
+        <h2>Get Historical Rates</h2>
+        <input type="date" id="dateInput" class="date-input" />
+        <button id="historicalRatesBtn" class="btn">Get Historical Rates</button>
+        <div class="results" id="historicalRates"></div>
+
+        <button id="resetBtn" class="btn reset-btn">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
